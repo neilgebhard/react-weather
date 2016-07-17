@@ -2,6 +2,10 @@
 
 Code repository for a weather app
 
+## Demo
+
+Check out the demo at [neilgebhard.tech](neilgebhard.tech).
+
 ## How to Use
 
 1. Clone the repo: `git clone git@github.com:neilgebhard/react-weather`

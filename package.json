@@ -10,7 +10,7 @@
         "build": "npm run browserify",
         "start": "npm install"
     },
-    "author": "Ken Wheeler",
+    "author": "Neil Gebhard",
     "license": "MIT",
     "dependencies": {
         "express": "~4.9.7",

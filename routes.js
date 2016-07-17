@@ -53,7 +53,6 @@ module.exports = {
             });
 
             response.on('end', function() {
-                console.log(weather);
                 var weatherModel = new WeatherModel({
                     weather: weather,
                     zip: req.params.zip

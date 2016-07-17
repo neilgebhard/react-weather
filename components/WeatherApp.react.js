@@ -26,18 +26,20 @@ module.exports = WeatherApp = React.createClass({
     componentDidMount: function() {
         var request = new XMLHttpRequest();
         var id = localStorage.getItem('id');
-        request.open('GET', 'state/' + id, true);
+        
+        if (id) {
+            request.open('GET', 'state/' + id, true);
+            request.onload = function() {
+                if (request.status >= 200 && request.status < 400) {
+                    var data = JSON.parse(request.responseText);
+                    this.setState({
+                        data: data.weather
+                    });
+                }
+            }.bind(this);
 
-        request.onload = function() {
-            if (request.status >= 200 && request.status < 400) {
-                var data = JSON.parse(request.responseText);
-                this.setState({
-                    data: data.weather
-                });
-            }
-        }.bind(this);
-
-        request.send();
+            request.send();
+        }
     },
     render: function() {
         return (
