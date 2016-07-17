@@ -4,7 +4,7 @@ Code repository for a weather app
 
 ## Demo
 
-Check out the demo at [http://www.neilgebhard.tech](neilgebhard.tech).
+Check out the demo at [neilgebhard.tech](http://www.neilgebhard.tech).
 
 ## How to Use
 
