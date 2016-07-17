@@ -1,0 +1,16 @@
+* { font-family: helvetica; }
+
+.zip-form { max-width: 200px; margin: 50px auto 0 auto; }
+#zip-input { font-size: 3em; height: 60px; }
+.input-field input[type=text]:focus { border-bottom: 1px solid #000; box-shadow: 0 1px 0 0 #000; }
+.input-field .prefix { font-size: 2.5rem; top: 13px; }
+
+.city { font-size: 4em; }
+.description { font-size: 2em; }
+.temperature { font-size: 6em; }
+.degree-symbol { 
+	vertical-align: top; 
+	position: relative;
+    top: 24px;
+    font-size: 1.5em; 
+}
