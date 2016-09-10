@@ -1,7 +1,6 @@
 var React = require('react');
 var Weather = require('./Weather.react.js');
 var ZipForm = require('./ZipForm.react.js');
-// var WeatherModel = require('../models/Weather');
 
 module.exports = WeatherApp = React.createClass({
     getInitialState: function() {
