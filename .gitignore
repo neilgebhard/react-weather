@@ -1,4 +1,14 @@
-node_modules
+# minified javascript file
 public/js/bundle.js
+
+# config file with Api Key
 config.js
-.DS_Store
+
+# sublime files
+*.sublime-*
+
+# node module dir
+node_modules/
+
+# distribution files
+bundle.*
